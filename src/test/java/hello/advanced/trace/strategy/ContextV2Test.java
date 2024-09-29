@@ -34,9 +34,9 @@ public class ContextV2Test {
   /**
  * 익명 내부 클래스 사용2
  */
-@Test
-void strategtV3(){
-  ContextV2 context = new ContextV2();
-  context.execute(() -> log.info("비즈니스 로직 실행 "));
-}
+  @Test
+  void strategtV3(){
+    ContextV2 context = new ContextV2();
+    context.execute(() -> log.info("비즈니스 로직 실행 "));
+  }
 }
