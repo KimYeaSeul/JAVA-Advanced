@@ -9,7 +9,7 @@ import hello.advanced.trace.strategy.code.StrategyLogic2;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class ConterxtV2Test {
+public class ContextV2Test {
 
   @Test
   void strategtV1(){
