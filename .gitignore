@@ -4,10 +4,18 @@
 ### Java ###
 # Compiled class file
 *.class
-.gradle/*
 # Log file
 *.log
-
+##############################
+## Gradle
+##############################
+bin/
+build/*
+.gradle
+.gradle/*
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
 # BlueJ files
 *.ctxt
 
@@ -47,3 +55,8 @@ replay_pid*
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/java,visualstudiocode
+##############################
+## Visual Studio Code
+##############################
+.vscode/
+.code-workspace
